@@ -1,13 +1,44 @@
 
-.wrapper {
-  width:600px:
-    Background:#eee;
+
+
+
+body {
+    background-color: black;
 }
+
 .heading{
-height:100px:
-  background:red;
-  padding:20px;
-  text-align:center;
-  
+    height:180px;
+background:gray;
+padding:20px;
+text-align:center;
+}
+
+
+.Navigation{
+ height:50px;
+background:lightgreen;
+}
+
+.Content{
+   min-height: 600px;
+   background:#ddd;
+   width: 690px;
+   float:left;
+}
+
+.sidebar{
+  width:630px;
+  float:right;
+  background:lightblue;
+  min-height:600px;
+}
+
+
+.footer{
+  clear:both;
+background:orange;
+colour:Black;
+text-align:center;
+padding:10px;
 
 }
